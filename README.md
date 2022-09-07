@@ -1,1 +1,1 @@
-# # Incubyte String Calculator Kata TDD Assignment
+# Incubyte String Calculator Kata TDD Assignment
