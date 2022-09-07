@@ -50,7 +50,15 @@ class StringCalculatorTest {
         assertThrows(RuntimeException.class,()->stringCalculator.add("-1,-2,4"),"Negatives not allowed -1 -2 ");
     }
 
-   
+    // Task 5:
+    // TODO:- Numbers bigger than 1000 should be ignored.
+
+    @Test
+    void should_number_ignored_if_gt_thousand(){
+        assertEquals(3,stringCalculator.add("2,1,1002"));
+        assertEquals(1200,stringCalculator.add("1000,1001,200"));
+        assertEquals(0,stringCalculator.add("1002,1001,2002"));
+    }
 
 
 
