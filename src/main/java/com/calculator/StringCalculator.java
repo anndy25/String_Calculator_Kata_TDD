@@ -16,6 +16,7 @@ public class StringCalculator {
         return sum;
     }
     List<Integer> stringToIntList(String num){
+        num=removeNextLine(num);
         List<Integer> list=Arrays.stream(num.split(","))
                      .map(map->map.length()==1 && 'a'<=map.charAt(0) && map.charAt(0)<='z' ?   map.charAt(0)-'a'+1:Integer.parseInt(map)
                      ).
@@ -25,7 +26,21 @@ public class StringCalculator {
         return list;
     }
 
+    String removeNextLine(String num){
+      if(num.contains("\n")){
+          String[] numberString=num.split("\n");
+          StringBuilder sb=new StringBuilder();
+          for(String str:numberString){
+              if(str.length()!=0)
+                  sb.append(str);
+              if(sb.length()>0 && sb.charAt(sb.length()-1)!=',')
+                  sb.append(",");
+          }
+          return sb.toString();
+      }
 
+       return num;
+    }
 
     void isNegative(List<Integer> list){
         StringBuilder strNumber=new StringBuilder();

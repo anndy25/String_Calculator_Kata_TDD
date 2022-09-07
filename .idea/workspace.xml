@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18a04a8f-211e-4e94-a419-1fd9e313c420" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/calculator/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/calculator/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +50,7 @@
       <recent name="com.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.should_number_ignored_if_gt_thousand">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest.should_handle_new_lines_and_add">
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <extension name="coverage">
@@ -60,6 +62,22 @@
       <option name="PACKAGE_NAME" value="com.calculator" />
       <option name="MAIN_CLASS_NAME" value="com.calculator.StringCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.should_handle_new_lines_and_add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.calculator" />
+      <option name="MAIN_CLASS_NAME" value="com.calculator.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="should_handle_new_lines_and_add" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,22 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCalculatorTest.should_return_sum_for_unknown_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StringCalculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.calculator" />
-      <option name="MAIN_CLASS_NAME" value="com.calculator.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="should_return_sum_for_unknown_number" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringCalculatorTest.should_throw_exception_for_negative_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <extension name="coverage">
@@ -130,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTest.should_number_ignored_if_gt_thousand" />
+        <item itemvalue="JUnit.StringCalculatorTest.should_handle_new_lines_and_add" />
         <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.should_number_ignored_if_gt_thousand" />
         <item itemvalue="JUnit.StringCalculatorTest.should_throw_exception_for_negative_number" />
         <item itemvalue="JUnit.StringCalculatorTest.should_return_sum_for_number_and_alphabet" />
-        <item itemvalue="JUnit.StringCalculatorTest.should_return_sum_for_unknown_number" />
       </list>
     </recent_temporary>
   </component>
