@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="18a04a8f-211e-4e94-a419-1fd9e313c420" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/calculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/calculator/StringCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/calculator/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/calculator/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       <recent name="com.calculator" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest.should_handle_new_lines_and_add">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <extension name="coverage">
@@ -132,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCalculatorTest.should_handle_new_lines_and_add" />
         <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.should_handle_new_lines_and_add" />
         <item itemvalue="JUnit.StringCalculatorTest.should_number_ignored_if_gt_thousand" />
         <item itemvalue="JUnit.StringCalculatorTest.should_throw_exception_for_negative_number" />
         <item itemvalue="JUnit.StringCalculatorTest.should_return_sum_for_number_and_alphabet" />

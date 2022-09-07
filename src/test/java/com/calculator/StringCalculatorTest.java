@@ -60,7 +60,15 @@ class StringCalculatorTest {
         assertEquals(0,stringCalculator.add("1002,1001,2002"));
     }
 
+    // Task 6:
+    // TODO:- Allow the add method to handle new lines between numbers (instead of commas)
 
+    @Test
+    void should_handle_new_lines_and_add(){
+        assertEquals(3,stringCalculator.add("2,\n1,1002"));
+        assertEquals(1200,stringCalculator.add("\n1000,1001,200"));
+        assertEquals(101,stringCalculator.add("1002,\n\n100\n1,\n2002"));
+    }
 
 
 
