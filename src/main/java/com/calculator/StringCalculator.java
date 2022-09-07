@@ -16,11 +16,13 @@ public class StringCalculator {
         return sum;
     }
     List<Integer> stringToIntList(String num){
-         return  Arrays.stream(num.split(","))
-                 .map(map->map.length()==1 && 'a'<=map.charAt(0) && map.charAt(0)<='z' ?   map.charAt(0)-'a'+1:Integer.parseInt(map)
-                 ).
-                 filter((number)->number<=1000).
-                 collect(Collectors.toList());
+        List<Integer> list=Arrays.stream(num.split(","))
+                     .map(map->map.length()==1 && 'a'<=map.charAt(0) && map.charAt(0)<='z' ?   map.charAt(0)-'a'+1:Integer.parseInt(map)
+                     ).
+                     filter((number)->number<=1000).
+                     collect(Collectors.toList());
+        if(list.size()==0) list.add(0);
+        return list;
     }
 
 
