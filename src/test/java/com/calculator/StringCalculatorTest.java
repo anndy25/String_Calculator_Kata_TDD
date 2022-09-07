@@ -32,6 +32,15 @@ class StringCalculatorTest {
         assertEquals(25,stringCalculator.add("10,5,5,5"));
     }
 
+    //Task 3:
+    //TODO:- Allow alphabets to be included with numbers. The numeric value for the alphabet would be equal to its position.
+    @Test
+    void should_return_sum_for_number_and_alphabet(){
+        assertEquals(10,stringCalculator.add("8,a,a"));
+        assertEquals(49,stringCalculator.add("10,a,z,10,b"));
+        assertEquals(90,stringCalculator.add("p,q,r,s,t"));
+    }
+
     
     
 
