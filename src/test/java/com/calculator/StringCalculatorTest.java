@@ -41,7 +41,14 @@ class StringCalculatorTest {
         assertEquals(90,stringCalculator.add("p,q,r,s,t"));
     }
 
-   
+    // Task 4:
+    // TODO:- Calling add with a negative number will throw an exception “Negatives not allowed” - and the negative that was passed.
+
+    @Test
+    void should_throw_exception_for_negative_number(){
+        assertThrows(RuntimeException.class,()->stringCalculator.add("-1,2,4"),"Negatives not allowed -1 ");
+        assertThrows(RuntimeException.class,()->stringCalculator.add("-1,-2,4"),"Negatives not allowed -1 -2 ");
+    }
 
 
 
