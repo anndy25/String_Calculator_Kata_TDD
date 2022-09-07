@@ -23,6 +23,16 @@ class StringCalculatorTest {
         assertEquals(45,stringCalculator.add("45,0"));
     }
 
+    //Task 2:
+    //TODO:- Allow the add method to handle an unknown amount of numbers
+    @Test
+    void should_return_sum_for_unknown_number(){
+        assertEquals(100,stringCalculator.add("50,10,40"));
+        assertEquals(10,stringCalculator.add("1,2,2,1,3,1"));
+        assertEquals(25,stringCalculator.add("10,5,5,5"));
+    }
+
+    
     
 
 }
